@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300i,400,400i,700i");
+body {
+    font-family: "Montserrat";
+    font-style: italic;
+}
+
+#page-wrapper>section {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit !important;
+}
+
+.wrapper-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.wrapper {
+    position: relative;
+    padding: 6em 0 9em 0;
+}
+
+.wrapper .title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    font-size: 0.9em;
+    width: 25em;
+    height: 3.25em;
+    top: -3.25em;
+    line-height: 3.25em;
+    margin-bottom: -3.25em;
+    margin-left: -12.5em;
+    padding-top: 0.5em;
+}
+
+.wrapper .title:before {
+    content: "";
+    position: absolute;
+    bottom: -38px;
+    left: -35px;
+    width: 35px;
+    height: 38px;
+    background: url("/static/images/shadow.png");
+}
+
+.wrapper .title:after {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    content: "";
+    position: absolute;
+    bottom: -38px;
+    right: -35px;
+    width: 35px;
+    height: 38px;
+    background: url("/static/images/shadow.png");
+}
+
+.wrapper.style1,
+.wrapper.style1 .title {
+    background: #68c5db;
+}
+
+.wrapper.style2 {
+    background: #fafafa;
+}
+
+.wrapper.style3,
+.wrapper.style3 .title {
+    background: #333333;
+}
+
+.wrapper.style2 .title {
+    background: #fafafa;
+    color: #333333;
+}
+
+.wrapper.style3 .image {
+    border: solid 10px #fafafa;
+}
+
+.button {
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    display: inline-block;
+    background: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    border-radius: 0.35em;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 0 2.25em;
+    font-size: 0.9em;
+    min-width: 12em;
+    height: 4em;
+    line-height: 4em;
+    margin: 0 2em;
+}
+
+.button.large {
+    font-size: 1em;
+    min-width: 14em;
+}
+
+.button.style1 {
+    background-color: #fafafa;
+    color: #333333;
+}
+
+.button.style1:hover,
+.button.style1:active {
+    background: #333333;
+    color: #fafafa;
+}
+
+.button.style2 {
+    background: #333333;
+    color: #fafafa;
+}
+
+.button.style2:hover,
+.button.style2:active,
+.button.style3:hover,
+.button.style3:active {
+    background: #68c5db;
+}
+
+.button.style3 {
+    background: #fafafa;
+    color: #333333;
+}
+
+.icon {
+    width: 25px !important;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+section {
+    padding-bottom: 8em;
+    text-align: center;
+}
+
+#about,
+#schedule,
+#structure,
+#contact {
+    color: #333333;
+}
+
+#terms,
+#register,
+#intro {
+    color: #fafafa;
+}
+
+section .style1 {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+li.style1 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+section .style2 {
+    font-weight: 700;
+    border-radius: 0.35em;
+    box-shadow: inset 0px 0px 1px 1px #fafafa;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    padding: 0.5em 0;
+    margin-bottom: 0.5em;
+}
+
+section#about p.style2 {
+    box-shadow: inset 0px 0px 1px 1px #333333;
+}
+
+section p.style2 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+section .style3 {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+section li.style3 {
+    text-align: left;
+}
+
+section p.style3 {
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: 700;
+}
+
+#contact img {
+    width: 100%;
+}
+
+#outreach {
+    padding: 0 2vw;
+    margin-bottom: 30px;
+}
+
+#shaastra {
+    margin-top: 30px;
+}
+
+#contact {
+    text-align: left;
+}
+
+@media only screen and (max-width: 991px) {
+    #outreach {
+        padding: 0 5vw;
+    }
+}
+
+section .style4 {
+    font-size: 14px;
+    font-family: 'montserrat';
+    font-variant: small-caps;
+    text-transform: lowercase;
+    color: red;
+    position: absolute;
+    right: 15px;
+    top: 64px;
+}
+
+#nav {
+    display: block;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#nav>ul {
+    display: inline-block;
+    border-radius: 0.35em;
+    border: 1px solid #fafafa;
+    padding: 0 1.5em 0 1.5em;
+    margin: 0 20px;
+}
+
+#nav>ul>li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 1.5em 0 1.5em;
+}
+
+#nav>ul>li>p,
+#nav>ul>li>span {
+    display: block;
+    color: #fafafa;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.7em;
+    letter-spacing: 0.25em;
+    height: 5em;
+    line-height: 5em;
+    outline: 0;
+    cursor: pointer;
+}
+
+#nav span:hover {
+    color: #68c5db;
+}
+
+#header {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    min-height: auto;
+    background: #333333;
+    padding: 0;
+}
+
+/* Logo */
+
+#logo {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+#logo p {
+    color: #fafafa;
+    text-transform: uppercase;
+    margin: 1em 0 0 0;
+    display: block;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+}
+
+#logo img {
+    max-width: 300px;
+}
+
+#logo h1 {
+    color: #68c5db;
+    font-weight: 600;
+}
+
+.input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 1em 0;
+    width: calc(100%);
+    vertical-align: top;
+}
+
+.input__field {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 0.8em;
+    border: none;
+    border-radius: 0;
+    font-weight: 400;
+    color: #fafafa;
+    font-family: "Montserrat";
+    font-style: italic;
+    letter-spacing: 0.1em;
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+    padding: 0.5em 0;
+    margin-bottom: 2em;
+    /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+    outline: none;
+}
+
+.input__label {
+    float: left;
+    padding: 0 1em;
+    color: #fafafa;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-family: "Montserrat";
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    padding: 10px 0 5px;
+    pointer-events: none;
+}
+
+.input__label-content {
+    position: relative;
+    display: block;
+    padding: 1.6em 0;
+    width: 100%;
+    padding: 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: -webkit-transform 0.3s, color 0.3s;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.input__label::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #68c5db;
+    left: 0;
+    top: 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.input__field:focus+.input__label::after,
+.input--filled .input__label::after {
+    background: #68c5db;
+    -webkit-transform: scale3d(1, 0.25, 1);
+    transform: scale3d(1, 0.25, 1);
+    margin-bottom: -10px;
+}
+
+.input__field:focus+.input__label .input__label-content,
+.input--filled .input__label .input__label-content {
+    color: #fafafa;
+    -webkit-transform: translate3d(0, 2em, 0) scale3d(0.655, 0.655, 1);
+    transform: translate3d(0, 2em, 0) scale3d(0.655, 0.655, 1);
+}
+
+.input--filled .input__label .input__label-content {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.error {
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5vw
+}
+
+.success {
+    color: green;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5vw
+}
