@@ -23,12 +23,11 @@ class Index extends React.Component {
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <title>Spark 2019 | Shaastra 2020</title>
-          <link rel="stylesheet" href="/static/styles/styles.css" />
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
           />
-          <link rel="stylesheet" href="/static/styles/custom-aos.css" />
+          <link rel="stylesheet" href="/static/styles/styles.min.css" />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" />
         </Head>
         <Header />
