@@ -1,6 +1,5 @@
-const withCSS = require("@zeit/next-css");
-module.exports = withCSS({
+module.exports = {
   publicRuntimeConfig: {
     STITCH_APP_KEY: process.env.STITCH_APP_KEY
   }
-});
+};

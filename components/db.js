@@ -13,23 +13,25 @@ class StitchConnect extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   componentDidMount() {
-    const client = Stitch.initializeDefaultAppClient(
-      getConfig().publicRuntimeConfig.STITCH_APP_KEY
-    );
-    const db = client
-      .getServiceClient(RemoteMongoClient.factory, "mongodb-atlas")
-      .db("spark-2020");
-    client.auth
-      .loginWithCredential(new AnonymousCredential())
-      .then(user => {
-        this.setState({
-          client,
-          db
+    const key = getConfig().publicRuntimeConfig.STITCH_APP_KEY;
+    let client, db;
+    if (key) {
+      client = Stitch.initializeDefaultAppClient(key);
+      db = client
+        .getServiceClient(RemoteMongoClient.factory, "mongodb-atlas")
+        .db("spark-2020");
+      client.auth
+        .loginWithCredential(new AnonymousCredential())
+        .then(user => {
+          this.setState({
+            client,
+            db
+          });
+        })
+        .catch(err => {
+          console.log(err);
         });
-      })
-      .catch(err => {
-        console.log(err);
-      });
+    }
   }
 
   handleSubmit(values, { resetForm }) {
