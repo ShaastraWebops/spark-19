@@ -39,6 +39,7 @@ class StitchConnect extends React.Component {
       ...values,
       owner_id: this.state.client.auth.user.id
     };
+    console.log(formData);
     resetForm();
     this.state.db
       .collection("participants")

@@ -8,6 +8,7 @@ import Structure from "../components/structure";
 import Schedule from "../components/schedule";
 import Register from "../components/register";
 import Footer from "../components/footer";
+import Contact from "../components/contact";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -37,6 +38,7 @@ class Index extends React.Component {
         <Structure />
         <Schedule />
         <Register />
+        <Contact />
         <Footer />
       </div>
     );

@@ -10,7 +10,7 @@ const Navbar = () => {
       id: "about"
     },
     {
-      name: "rules & regulations",
+      name: "terms & conditions",
       id: "terms"
     },
     {
@@ -20,10 +20,6 @@ const Navbar = () => {
     {
       name: "schedule",
       id: "schedule"
-    },
-    {
-      name: "register",
-      id: "register"
     },
     {
       name: "contact",

@@ -12,18 +12,22 @@ const Intro = () => {
           SPARK
         </p>
         <p className="style1">
-          SPARK is Shaastra’s flagship event for school students, consisting of
-          the Spark Junior Quiz conducted all over India and the prestigious
-          national level Spark Junior Conference.
+        Shaastra, IIT Madras proudly presents SPARK, 
+        our annual flagship event for school students! 
+        SPARK consists of the Spark Junior Quiz conducted all over 
+        India and the prestigious national level Spark Junior Conference,
+        held at IIT Madras. 
         </p>
         <p className="style1">
-          Spark Junior Quiz is a unique quizzing journey that covers over 20
-          cities across the country. Take on India’s brightest young minds to
-          come on top!
+        The Spark Junior Quiz is a unique quizzing experience 
+        conducted all across the country, encompassing 
+        the brightest minds. Compete against the creme 
+        de la creme, and emerge victorious!! 
         </p>
         <p className="style3">Who can participate?</p>
         <p className="style1">
-          All students of class 8 to 12 are eligible to participate.
+        In order to participate, you must belong to 
+        classes 8 to 12. Each team must have 2 participants each.
         </p>
         <p className="style3">Where?</p>
         <p className="style1">

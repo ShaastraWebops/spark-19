@@ -8,7 +8,7 @@ const Schedule = () => {
         Schedule
       </div>
       <div className="wrapper-container">
-        <table className="table table-striped table-bordered table-responsive">
+        {/* <table className="table table-striped table-bordered table-responsive">
           <thead className="thead-dark" data-aos="fade-down">
             <tr>
               <th>City</th>
@@ -31,7 +31,8 @@ const Schedule = () => {
               );
             })}
           </tbody>
-        </table>
+        </table> */}
+        <h4>To be Updated Soon. Soory for the Inconvenience</h4>
       </div>
     </section>
   );

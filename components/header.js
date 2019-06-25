@@ -6,6 +6,7 @@ const Header = () => {
     <section id="header" className="wrapper">
       <div id="logo" data-aos="fade">
         <Navbar />
+        <p><span>DOES YOUR GREY MATTER??</span></p>
         <div>
           <img src="/static/images/logo.svg" alt="" />
         </div>
@@ -14,7 +15,9 @@ const Header = () => {
         <p>
           Make your mark, It's the <strong>spark</strong>
         </p>
-        <p>Battle of India's Brightest Young Minds!</p>
+        <p> 
+          Its that time of the year again - Compete against the brightest minds of the country and earn the chance to go on an all expenses paid trip to IIT Madras!
+        </p>
       </div>
     </section>
   );

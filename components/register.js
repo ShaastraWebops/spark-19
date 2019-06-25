@@ -1,20 +1,25 @@
 import React from "react";
 import { formFields, cities, FormSchema, initialFormValues } from "../details";
 import { Formik, ErrorMessage } from "formik";
-import dynamic from "next/dynamic";
+import {register} from './Function';
 
-const DynamicImport = dynamic(import("./db"), {
-  ssr: false
-});
+// import dynamic from "next/dynamic";
+
+// const DynamicImport = dynamic(import("./db"), {
+//   ssr: false
+// });
 
 const Register = () => {
+
   return (
     <section id="register" className="wrapper style3">
       <div className="title" data-aos="fade-up">
         Register
       </div>
-      <DynamicImport>
-        <Formik initialValues={initialFormValues} validationSchema={FormSchema}>
+      {/* <DynamicImport> */}
+        <Formik initialValues={initialFormValues} validationSchema={FormSchema} onSubmit={(values)=>{
+          register(values).then(res=>{console.log(res)})
+        }}>
           {({ handleSubmit, handleChange, values, isSubmitting, errors }) => {
             return (
               <form noValidate onSubmit={handleSubmit}>
@@ -181,7 +186,7 @@ const Register = () => {
             );
           }}
         </Formik>
-      </DynamicImport>
+      {/* </DynamicImport> */}
     </section>
   );
 };

@@ -1,11 +1,12 @@
+
 import React from "react";
 
 const Footer = () => {
   return (
     <section id="contact" className="wrapper style1">
-      <div className="title" data-aos="fade-up">
+      {/* <div className="title" data-aos="fade-up">
         Contact
-      </div>
+      </div> */}
       <div className="wrapper-container">
         <div className="row" data-aos="fade-down">
           <div className="col-lg-6">

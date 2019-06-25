@@ -8,8 +8,16 @@ const Structure = () => {
       </div>
       <div className="wrapper-container">
         <div className="row">
+          <p className="style1">
+            SPARK is a three-tier mega event, with the first phase being the SPARK Junior
+            Quiz, a pan-India quiz competition to be conducted in over 20 cities, far and
+            wide across the nation. With 4000+ participants, the SPARK Junior Quiz is
+            indeed one epic quizzing Journey. The winners stand a chance to travel all the
+            way to IIT Madras free of cost to compete in the national finals and
+            experience what Shaastra has to offer.
+          </p>
           <div className="col-lg-4" data-aos="fade-left">
-            <p className="style3">Spark Prelims</p>
+            <p className="style3">SPARK Prelims</p>
             <ul>
               <li className="style1">
                 General Tech Quiz - science facts, logic, tech and how things
@@ -54,6 +62,17 @@ const Structure = () => {
               <li className="style1">Date: TBA(During Shaastra)</li>
             </ul>
           </div>
+        </div>
+        <div className="actions" data-aos="fade">
+        <a
+            href="https://res.cloudinary.com/shaastra-apps/image/upload/v1533862128/Brochure-Spark_.tech.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="button style3">
+              <em>Download Brochure</em>
+            </button>
+          </a>
         </div>
       </div>
     </section>
