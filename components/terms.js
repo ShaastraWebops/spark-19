@@ -36,10 +36,13 @@ const Terms = () => {
           </li>
           <li className="style3">
             The quiz will consist of only one round - A common written round.
-            The winners will be decided based on the marks scored. In case of any ties, a second tie breaker round may be conducted. 
+            The winners will be decided based on the marks scored. In case of
+            any ties, a second tie breaker round may be conducted.
           </li>
           <li className="style3">
-            Prizes and Incentives: The top 5 teams are qualifies for the Nationals Screening Round. Medals and Certificates will be awarded to the Top 3 teams.
+            Prizes and Incentives: The top 5 teams are qualifies for the
+            Nationals Screening Round. Medals and Certificates will be awarded
+            to the Top 3 teams.
           </li>
           <li className="style3">
             The organiser's decision on any matter pertaining to the quiz would
@@ -66,6 +69,7 @@ const Terms = () => {
             href="https://res.cloudinary.com/shaastra-apps/image/upload/v1533862128/Brochure-Spark_.tech.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            className="d-none"
           >
             <button className="button style3">
               <em>Download Brochure</em>

@@ -32,7 +32,7 @@ const Schedule = () => {
             })}
           </tbody>
         </table> */}
-        <h4>To be Updated Soon. Soory for the Inconvenience</h4>
+        <h4>To be Updated Soon.</h4>
       </div>
     </section>
   );

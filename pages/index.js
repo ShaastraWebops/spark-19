@@ -28,7 +28,7 @@ class Index extends React.Component {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
           />
-          <link rel="stylesheet" href="/static/styles/styles.min.css" />
+          <link rel="stylesheet" href="/static/styles/styles.css" />
           <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" />
         </Head>
         <Header />

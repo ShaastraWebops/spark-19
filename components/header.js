@@ -6,7 +6,10 @@ const Header = () => {
     <section id="header" className="wrapper">
       <div id="logo" data-aos="fade">
         <Navbar />
-        <p><span>DOES YOUR GREY MATTER??</span></p>
+        <p>
+          <span>DOES YOUR GREY MATTER??</span>
+        </p>
+        <br />
         <div>
           <img src="/static/images/logo.svg" alt="" />
         </div>
@@ -15,9 +18,15 @@ const Header = () => {
         <p>
           Make your mark, It's the <strong>spark</strong>
         </p>
-        <p> 
-          Its that time of the year again - Compete against the brightest minds of the country and earn the chance to go on an all expenses paid trip to IIT Madras!
-        </p>
+        <div className="row justify-content-center mt-5">
+          <div className="col-9">
+            <p>
+              Its that time of the year again - Compete against the brightest
+              minds of the country and earn the chance to go on an all expenses
+              paid trip to IIT Madras!
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

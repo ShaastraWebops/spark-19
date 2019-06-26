@@ -491,3 +491,11 @@ body[data-aos-duration="800"] [data-aos],
 [data-aos][data-aos][data-aos-duration="800"] {
   transition-duration: 800ms;
 }
+
+#admin {
+  min-height: 100vh
+}
+
+.style1.small {
+  font-size: 13px;
+}
