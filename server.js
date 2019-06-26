@@ -1,15 +1,16 @@
+require("dotenv").config();
 const express = require("express");
 const next = require("next");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
-const port = 3000;
+const port = process.env.PORT;
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
 const Participant = require("./models/Participants");
 const handle = app.getRequestHandler();
 const cors = require("cors");
 
-mongoose.connect("mongodb://localhost:27017/Spark-19", {
+mongoose.connect(process.env.DB_URL, {
   useNewUrlParser: true
 });
 
