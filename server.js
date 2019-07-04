@@ -9,6 +9,8 @@ const app = next({ dev });
 const Participant = require("./models/Participants");
 const handle = app.getRequestHandler();
 const cors = require("cors");
+const sendgrid = require("@sendgrid/mail");
+sendgrid.setApiKey(process.env.SENDGRID_KEY);
 
 mongoose.connect(process.env.DB_URL, {
 	useNewUrlParser: true
@@ -35,6 +37,28 @@ app.prepare().then(() => {
 			.save()
 			.then(participant => {
 				res.status(200).json({ participant: "successfully submitted" });
+				sendgrid
+					.send({
+						subject:
+							"Spark Junior Quiz 2019 Confirmation || Shaastra 2020 - IIT Madras",
+						text:
+							"Hello , Greetings from Shaastra 2020, IIT Madras! Thank you for registering for the Spark Junior Quiz 2019. Embark on a great learning journey with Spark! The contact details of city wise coordinators of the event are available on our website under the ‘Contact Us’ <*link*> tab. You may contact them directly in case of any queries. Best wishes, Team Shaastra, IIT Madras ",
+						html: `<p>Hello , Greetings from Shaastra 2020, IIT Madras!</p>
+					<p>Thank you for registering for the Spark Junior Quiz 2019. Embark on a great learning journey with Spark! The contact details of city wise coordinators of the event are available on our website under the ‘Contact Us’ tab. You may contact them directly in case of any queries.</p>
+					<p>Visit <a href="http://spark.shaastra.org">spark.shaastra.org</a></p>
+					<p>Best wishes, </p>
+					<p>Team Shaastra </>
+					<p>IIT Madras </p>
+					`,
+						to: [participant.email1, participant.email2],
+						from: "outreach@shaastra.org"
+					})
+					.then(res => {
+						console.log(res);
+					})
+					.catch(err => {
+						console.log(err);
+					});
 			})
 			.catch(err => {
 				res.status(400).send("failed");
