@@ -11,38 +11,39 @@ import Footer from "../components/footer";
 import Contact from "../components/contact";
 
 class Index extends React.Component {
-  componentDidMount() {
-    AOS.init({
-      delay: 100,
-      duration: 800
-    });
-  }
+	componentDidMount() {
+		AOS.init({
+			delay: 100,
+			duration: 800,
+			mirror: false
+		});
+	}
 
-  render() {
-    return (
-      <div>
-        <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>Spark 2019 | Shaastra 2020</title>
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
-          />
-          <link rel="stylesheet" href="/static/styles/styles.css" />
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" />
-        </Head>
-        <Header />
-        <Intro />
-        <About />
-        <Terms />
-        <Structure />
-        <Schedule />
-        <Register />
-        <Contact />
-        <Footer />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div>
+				<Head>
+					<meta name="viewport" content="width=device-width, initial-scale=1" />
+					<title>Spark 2019 | Shaastra 2020</title>
+					<link
+						rel="stylesheet"
+						href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+					/>
+					<link rel="stylesheet" href="/static/styles/styles.css" />
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" />
+				</Head>
+				<Header />
+				<Intro />
+				<About />
+				<Terms />
+				<Structure />
+				<Schedule />
+				<Register />
+				<Contact />
+				<Footer />
+			</div>
+		);
+	}
 }
 
 export default Index;
