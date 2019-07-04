@@ -94,7 +94,7 @@ const venueDetails = [
 		city: "Delhi",
 		venueName: "Kendriya Vidyalaya ",
 		venueAddress: "A.A.I, Rangpuri, Delhi, New Delhi, Delhi 110037",
-		date: "13-07-2019"
+		date: "20-07-2019"
 	},
 	{
 		city: "Kolkata",
