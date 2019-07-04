@@ -11,44 +11,43 @@ const handle = app.getRequestHandler();
 const cors = require("cors");
 
 mongoose.connect(process.env.DB_URL, {
-  useNewUrlParser: true
+	useNewUrlParser: true
 });
 
 const connection = mongoose.connection;
 connection.once("open", () => {
-  console.log("MongoDB connected");
+	console.log("MongoDB connected");
 });
 
 app.prepare().then(() => {
-  const server = express();
-  server.use(bodyParser.json());
-  server.use(cors());
-  server.use(bodyParser.urlencoded({ extended: true }));
+	const server = express();
+	server.use(bodyParser.json());
+	server.use(cors());
+	server.use(bodyParser.urlencoded({ extended: true }));
 
-  server.get("/", (req, res) => {
-    return app.render(req, res, "/", req.query);
-  });
+	server.get("/", (req, res) => {
+		return app.render(req, res, "/", req.query);
+	});
 
-  server.post("/", (req, res) => {
-    const participant = new Participant(req.body);
-    participant
-      .save()
-      .then(participant => {
-        res.status(200).json({ participant: "successfully submitted" });
-        res.redirect("/");
-      })
-      .catch(err => {
-        res.status(400).send("failed");
-        console.log(err);
-      });
-  });
+	server.post("/", (req, res) => {
+		const participant = new Participant(req.body);
+		participant
+			.save()
+			.then(participant => {
+				res.status(200).json({ participant: "successfully submitted" });
+			})
+			.catch(err => {
+				res.status(400).send("failed");
+				console.log(err);
+			});
+	});
 
-  server.get("*", (req, res) => {
-    return handle(req, res);
-  });
+	server.get("*", (req, res) => {
+		return handle(req, res);
+	});
 
-  server.listen(port, err => {
-    if (err) throw err;
-    console.log(`Server Ready on Port ${port}`);
-  });
+	server.listen(port, err => {
+		if (err) throw err;
+		console.log(`Server Ready on Port ${port}`);
+	});
 });

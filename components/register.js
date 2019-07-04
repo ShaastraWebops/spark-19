@@ -50,10 +50,14 @@ class Register extends React.Component {
 															);
 													}}
 												>
-													<option value="" />
+													<option className="option-list" value="" />
 													{cities.map(city => {
 														return (
-															<option value={city} key={city}>
+															<option
+																className="option-list"
+																value={city}
+																key={city}
+															>
 																{city}
 															</option>
 														);
@@ -142,12 +146,22 @@ class Register extends React.Component {
 																				);
 																		}}
 																	>
-																		<option value="" />
-																		<option value="8">8</option>
-																		<option value="9">9</option>
-																		<option value="10">10</option>
-																		<option value="11">11</option>
-																		<option value="12">12</option>
+																		<option className="option-list" value="" />
+																		<option className="option-list" value="8">
+																			8
+																		</option>
+																		<option className="option-list" value="9">
+																			9
+																		</option>
+																		<option className="option-list" value="10">
+																			10
+																		</option>
+																		<option className="option-list" value="11">
+																			11
+																		</option>
+																		<option className="option-list" value="12">
+																			12
+																		</option>
 																	</select>
 																	<label className="input__label">
 																		<span className="input__label-content">
