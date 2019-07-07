@@ -177,7 +177,7 @@ const venueDetails = [
 	},
 	{
 		city: "Trichy",
-		venueName: "SBIOA MHSS",
+		venueName: "SBIOA Matric. and Higher Secondary School",
 		venueAddress:
 			"SBIOA School Rd, Kullapatti, Tiruchirappalli, Tamil Nadu 620007",
 		date: "20-07-2019",
