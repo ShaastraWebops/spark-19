@@ -94,79 +94,114 @@ const venueDetails = [
 		city: "Delhi",
 		venueName: "Kendriya Vidyalaya ",
 		venueAddress: "A.A.I, Rangpuri, Delhi, New Delhi, Delhi 110037",
-		date: "20-07-2019"
+		date: "20-07-2019",
+		deadline: "17-07-2019",
+
+		contact: "B.Sundar Balarka ,8333045402"
 	},
 	{
 		city: "Kolkata",
 		venueName: "Indus Valley World School",
 		venueAddress:
 			"488, Ajoy Nagar, Eastern Metropolitan By-Pass, Near Peerless Hospital, Behind Satyajit Ray Film Institution, Kolkata, West Bengal 700094",
-		date: "13-07-2019"
+		date: "13-07-2019",
+		deadline: "10-07-2019",
+
+		contact: "Kshitij Raj Dhara, 9004971987"
 	},
 	{
 		city: "Coimbatore",
 		venueName: "SUGUNA PIP SCHOOL",
 		venueAddress:
 			"Kalapatti Main Rd, Adjacent to Suguna Polytechnic, Nehru Nagar West, Coimbatore, Tamil Nadu 641015",
-		date: "13-07-2019"
+		date: "13-07-2019",
+		deadline: "10-07-2019",
+
+		contact: "Abishek Shivram, 9443253232"
 	},
 	{
 		city: "Vijaywada",
 		venueName: "Icon Public School",
 		venueAddress:
 			"D.No. 33-21, 21&22, Eluru Rd, Seetharampuram, Sitharamapuram, Vijayawada, Andhra Pradesh 520002",
-		date: "14-07-2019"
+		date: "14-07-2019",
+		deadline: "10-07-2019",
+
+		contact: "Sumana, 6302911804"
 	},
 	{
 		city: "Mangalore",
 		venueName: "Delhi Public School",
 		venueAddress:
 			"Township, Kuthethoor (via Bala), MRPL Rd, Mangaluru, Karnataka 575030",
-		date: "17-07-2019"
+		date: "17-07-2019",
+		deadline: "13-07-2019",
+
+		contact: "V. Gokul Sai Sujan, 6385147724"
 	},
 	{
 		city: "Kochi",
 		venueName: "BHAVAN’S VIDYA MANDIR ",
 		venueAddress: "Desabhimani Rd, Elamakkara, Kochi, Kerala 682026",
-		date: "20-07-2019"
+		date: "20-07-2019",
+		deadline: "17-07-2019",
+
+		contact: "Shvetha Sivaprasad, 6379764273"
 	},
 	{
 		city: "Trivandrum",
 		venueName: "Bharatiya Vidya Bhavan",
 		venueAddress: "Manvila, Thiruvananthapuram, Kerala 695581",
-		date: "20-07-2019"
+		date: "20-07-2019",
+		deadline: "17-07-2019",
+
+		contact: "Naveen Kumar, 9497019835"
 	},
 	{
 		city: "Chennai",
 		venueName: "Kendriya Vidyalaya IITM Campus",
 		venueAddress: "Bonn Avenue, Chennai, Tamil Nadu 600036",
-		date: "20-07-2019"
+		date: "20-07-2019",
+		deadline: "17-07-2019",
+
+		contact: "Aswinkumar, 7708264928"
 	},
 	{
 		city: "Salem",
 		venueName: "SSRM HIGHER SECONDARY SCHOOL",
 		venueAddress: "S.S.R.M School Rd, Karumbalai, Salem, Tamil Nadu 636012",
-		date: "20-07-2019"
+		date: "20-07-2019",
+		deadline: "17-07-2019",
+
+		contact: "Navnitan, 8248293594"
 	},
 	{
 		city: "Trichy",
 		venueName: "SBIOA MHSS",
 		venueAddress:
 			"SBIOA School Rd, Kullapatti, Tiruchirappalli, Tamil Nadu 620007",
-		date: "20-07-2019"
+		date: "20-07-2019",
+		deadline: "17-07-2019",
+
+		contact: "Ramakrishnan S, 7338904721"
 	},
 	{
 		city: "Madurai",
-		venueName: "SREE NARAYANA VIDYA MANDIR SENIOR SECONDARY SCHOOL",
+		venueName: "Kendriya Vidyalaya",
 		venueAddress:
 			"Opp To Kattupillaiyar Kovil, PT Rajan Rd, B B Kulam, Narimedu, Chockikulam, Madurai, Tamil Nadu 625002",
-		date: "20-07-2019"
+		date: "20-07-2019",
+		deadline: "17-07-2019",
+
+		contact: "Sankaranarayanan B, 6383737193"
 	},
 	{
 		city: "Kannur",
-		venueName: "Kendriya Vidyalaya	",
+		venueName: "SREE NARAYANA VIDYA MANDIR SENIOR SECONDARY SCHOOL",
 		venueAddress: "Talap, Kannur, Kerala 670002",
-		date: "27-07-2019"
+		date: "27-07-2019",
+		deadline: "24-07-2019",
+		contact: "AKSHAY MOHAN, 9947331993"
 	}
 ];
 

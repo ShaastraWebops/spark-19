@@ -12,9 +12,11 @@ const Schedule = () => {
 					<thead className="thead-dark" data-aos="fade-down">
 						<tr>
 							<th>City</th>
+							<th>Registration Deadline</th>
 							<th>Venue Name</th>
 							<th>Venue Address</th>
 							<th>Date</th>
+							<th>Contact</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -22,9 +24,11 @@ const Schedule = () => {
 							return (
 								<tr key={detail.city} data-aos="fade-down">
 									<td className="style1">{detail.city}</td>
+									<td className="style1">{detail.deadline}</td>
 									<td className="style1">{detail.venueName}</td>
 									<td className="style1">{detail.venueAddress}</td>
 									<td className="style1">{detail.date}</td>
+									<td className="style1">{detail.contact}</td>
 								</tr>
 							);
 						})}
