@@ -68,7 +68,7 @@ app.prepare().then(() => {
 
 	server.get("/viewRegistrations", async (req, res) => {
 		let registrations = await Participant.find({}).exec();
-		return registrations;
+		res.status(200).json(registrations);
 	});
 
 	server.get("*", (req, res) => {
