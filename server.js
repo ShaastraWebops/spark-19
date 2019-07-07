@@ -66,6 +66,11 @@ app.prepare().then(() => {
 			});
 	});
 
+	server.get("/viewRegistrations", async (req, res) => {
+		let registrations = await Participant.find({}).exec();
+		return registrations;
+	});
+
 	server.get("*", (req, res) => {
 		return handle(req, res);
 	});
