@@ -13,6 +13,15 @@ class Register extends React.Component {
 				<div className="title" data-aos="fade-up">
 					Register
 				</div>
+				<h3 className="style3">Registrations open for following cities</h3>
+				<h5>
+					{cities.map(city => (
+						<button className="btn btn-outline-light pl-5 pr-5 city-btn">
+							{city}
+						</button>
+					))}
+				</h5>
+				<br />
 				<Formik
 					initialValues={initialFormValues}
 					validationSchema={FormSchema}

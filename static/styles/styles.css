@@ -508,3 +508,7 @@ th {
 	color: #333333 !important;
 	margin-left: 20px !important;
 }
+
+.city-btn {
+	border-radius: 0px;
+}
