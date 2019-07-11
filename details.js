@@ -133,7 +133,7 @@ const venueDetails = [
 		city: "Hyderabad",
 		venueName: "Oasis School, Raidurg ,Hyderabd",
 		venueAddress:
-			"8-84, Old Mumbai Highway, Shaikpet Rai Durg, Hyderabad, Telangana 500104",
+			"6-27, Old Mumbai Highway, Shaikpet, Rai Durg, Hyderabad, Telangana 500104",
 		date: "21-07-2019",
 		deadline: "21-07-2019",
 
