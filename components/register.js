@@ -16,7 +16,10 @@ class Register extends React.Component {
 				<h3 className="style3">Registrations open for following cities</h3>
 				<h5>
 					{cities.map(city => (
-						<button className="btn btn-outline-light pl-5 pr-5 city-btn">
+						<button
+							className="btn btn-outline-light pl-5 pr-5 city-btn"
+							key={city}
+						>
 							{city}
 						</button>
 					))}

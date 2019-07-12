@@ -38,6 +38,7 @@ const cities = [
 	"Hyderabad",
 	"Mangalore",
 	"Delhi",
+	"Pune",
 	"Kolkata"
 ];
 
@@ -212,6 +213,15 @@ const venueDetails = [
 		date: "27-07-2019",
 		deadline: "24-07-2019",
 		contact: "AKSHAY MOHAN, 9947331993"
+	},
+	{
+		city: "Pune",
+		venueName: "N.M.V Girls High School & Junior College",
+		venueAddress:
+			"2061, Sane Guruji Rd, Vijayanagar Colony, Sadashiv Peth, Pune, Maharashtra 411030",
+		date: "20-07-2019",
+		deadline: "17-07-2019",
+		contact: "H Madhan Kumar, 6303564574"
 	}
 ];
 
