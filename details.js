@@ -39,7 +39,9 @@ const cities = [
 	"Mangalore",
 	"Delhi",
 	"Pune",
-	"Kolkata"
+	"Kolkata",
+	"Thrissur",
+	"Vishakhapatnam"
 ];
 
 export { cities };
@@ -222,6 +224,23 @@ const venueDetails = [
 		date: "20-07-2019",
 		deadline: "17-07-2019",
 		contact: "H Madhan Kumar, 6303564574"
+	},
+	{
+		city: "Vishakhapatnam",
+		venueName: "Kendriya Vidyalaya No. 2, SRI VIJAYA NAGAR",
+		venueAddress:
+			"104 AREA NEAR INDUSTRIAL BUS STOP Industrial Estate, Gavara Kanchara Palem, Kancharapalem, Visakhapatnam, Andhra Pradesh 530007",
+		date: "21-07-2019",
+		deadline: "21-07-2019",
+		contact: "Prabash Reddy M, 9380194820"
+	},
+	{
+		city: "Thrissur",
+		venueName: "Kendriya Vidyalaya, Puranattukara",
+		venueAddress: "Puranattukara, Thrissur, Kerala 680551",
+		date: "20-07-2019",
+		deadline: "20-07-2019",
+		contact: "S Karthick Saran, 7993925081"
 	}
 ];
 
