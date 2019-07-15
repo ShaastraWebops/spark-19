@@ -221,7 +221,7 @@ const venueDetails = [
 		venueName: "N.M.V Girls High School & Junior College",
 		venueAddress:
 			"2061, Sane Guruji Rd, Vijayanagar Colony, Sadashiv Peth, Pune, Maharashtra 411030",
-		date: "20-07-2019, 1:30 PM - 3:45 PM",
+		date: "20-07-2019, 1:30 PM - 4:30 PM",
 		deadline: "17-07-2019",
 		contact: "H Madhan Kumar, 6303564574"
 	},
