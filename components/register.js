@@ -26,11 +26,13 @@ class Register extends React.Component {
 				</h5>
 				<br />
 				<Formik
+					ref={form => (this.form = form)}
 					initialValues={initialFormValues}
 					validationSchema={FormSchema}
 					onSubmit={values => {
 						register(values).then(res => {
 							console.log(res);
+							this.form.resetForm();
 							this.setState({ message: "SuccessFully Submitted!" });
 						});
 					}}
