@@ -241,6 +241,15 @@ const venueDetails = [
 		date: "20-07-2019",
 		deadline: "20-07-2019",
 		contact: "S Karthick Saran, 7993925081"
+	},
+	{
+		city: "Nagpur",
+		venueName: "School of Scholars, Beltarodi branch",
+		venueAddress:
+			"Near, Prithviraj Nagar, Beltarodi, Nagpur, Maharashtra 440037",
+		date: "21-07-2019",
+		deadline: "21-07-2019",
+		contact: "Vatsal Mavani, 9712930871"
 	}
 ];
 
