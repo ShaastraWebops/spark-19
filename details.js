@@ -41,7 +41,6 @@ const cities = [
 	"Pune",
 	"Kolkata",
 	"Thrissur",
-	"Vishakhapatnam",
 	"Nagpur"
 ];
 
