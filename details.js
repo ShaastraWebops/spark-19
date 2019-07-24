@@ -26,22 +26,23 @@ const formFields = [
 export { formFields };
 
 const cities = [
-	"Chennai",
-	"Madurai",
-	"Trichy",
-	"Coimbatore",
-	"Salem",
-	"Trivandrum",
-	"Kochi",
+	// "Chennai",
+	// "Madurai",
+	// "Trichy",
+	// "Coimbatore",
+	// "Salem",
+	// "Trivandrum",
+	// "Kochi",
 	"Kannur",
-	"Vijaywada",
-	"Hyderabad",
-	"Mangalore",
-	"Delhi",
-	"Pune",
-	"Kolkata",
-	"Thrissur",
-	"Nagpur"
+	// "Vijaywada",
+	// "Hyderabad",
+	// "Mangalore",
+	// "Delhi",
+	// "Pune",
+	// "Kolkata",
+	// "Thrissur",
+	// "Nagpur",
+	"Calicut"
 ];
 
 export { cities };
@@ -250,6 +251,15 @@ const venueDetails = [
 		date: "21-07-2019",
 		deadline: "21-07-2019",
 		contact: "Vatsal Mavani, 9712930871"
+	},
+	{
+		city: "Nagpur",
+		venueName: "Bharatiya Vidya Bhavan School",
+		venueAddress:
+			"Bhavans Hill Villikal Kottakunnumal Road Chevayur, Ponnayankode kunnu, Kozhikode, Kerala 673017",
+		date: "03-08-2019",
+		deadline: "02-08-2019",
+		contact: "Afeef P, 7593957270"
 	}
 ];
 
