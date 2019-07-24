@@ -253,7 +253,7 @@ const venueDetails = [
 		contact: "Vatsal Mavani, 9712930871"
 	},
 	{
-		city: "Nagpur",
+		city: "Calicut",
 		venueName: "Bharatiya Vidya Bhavan School",
 		venueAddress:
 			"Bhavans Hill Villikal Kottakunnumal Road Chevayur, Ponnayankode kunnu, Kozhikode, Kerala 673017",
