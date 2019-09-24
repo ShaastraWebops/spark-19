@@ -26,11 +26,11 @@ app.prepare().then(() => {
 	server.use(bodyParser.json());
 	server.use(cors());
 	server.use(bodyParser.urlencoded({ extended: true }));
-	server.use((req, res, next) => {
-		if (req.header("x-forwarded-proto") !== "https") {
-			res.redirect(`https://${req.header("host")}${req.url}`);
-		} else next();
-	});
+	// server.use((req, res, next) => {
+	// 	if (req.header("x-forwarded-proto") !== "https") {
+	// 		res.redirect(`https://${req.header("host")}${req.url}`);
+	// 	} else next();
+	// });
 
 	server.get("/", (req, res) => {
 		return app.render(req, res, "/", req.query);
